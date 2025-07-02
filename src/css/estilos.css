@@ -4,32 +4,10 @@ html {
 
 body {
     background-color: var(--background-color);
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.header {
-    background-color: brown;
-}
-
-.main {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer {
-    background-color: blue;
-    display: flex;
-    justify-content: flex-end;
-    width: 1250px;
-}
-
-.footer .icone img{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+.container {
+    display: grid;
+    
 }
