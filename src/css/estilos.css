@@ -5,12 +5,26 @@ html {
 body {
     background-color: var(--background-color);
     background-image: url("../images/bg-desktop.svg");
+}
 
+.header {
+    margin-top: 60px;
+    margin-left: 75px;
+}
 
+.header img {
+    height: 58px;
+    margin-bottom: 89px;
 }
 
 .container {
     display: flex;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
+.container img {
+    margin-left: 80px;
+    width: 800px;
+} 
+
